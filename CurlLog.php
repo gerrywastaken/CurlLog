@@ -24,6 +24,10 @@
 	 */
 
 	/**
+	 * At the moment this class requires Kint (https://github.com/raveren/kint/) for
+	 * it's d() function but I will remove this requiement as soon as I have some time
+	 * to work on the class.
+	 * 
 	 * Add "CurlLog::" in front of any calls to curl_setopt() (or just the ones that set CURLOPT_POSTFIELDS and
 	 * CURLOPT_INFILE, if that's easier) and curl_exec()
 	 *
